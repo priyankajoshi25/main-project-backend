@@ -5,7 +5,6 @@ const answer = document.getElementById("answer");
 askBtn.addEventListener("click", async () => {
 
     const userQuestion = question.value.trim();
-
     if (!userQuestion) {
         answer.textContent = "Please enter a question.";
         return;
